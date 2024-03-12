@@ -1,7 +1,7 @@
 # UACMe-compiled
 UACMe v3.6.5 compiled in Visual Studio 2022
 
-# UACMe
+# What is UACMe
 * Defeating Windows User Account Control by abusing built-in Windows AutoElevate backdoor.
 
 # System Requirements
@@ -11,6 +11,7 @@ UACMe v3.6.5 compiled in Visual Studio 2022
 
 # Usage
 
-Run executable from command line: akagi32 [Key] [Param] or akagi64 [Key] [Param]. See "Run examples" below for more info.
+Run executable from command line: akagi32 [Key] [Param] or akagi64 [Key] [Param].
 
-First parameter is number of method to use, second is optional command (executable file name including full path) to run. Second parameter can be empty - in this case program will execute elevated cmd.exe from system32 folder.
+- First parameter is number of method to use, second is optional command (executable file name including full path) to run. 
+- Second parameter can be empty - in this case program will execute elevated cmd.exe from system32 folder.
